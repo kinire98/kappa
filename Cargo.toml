@@ -1,0 +1,9 @@
+[package]
+name = "kappa"
+version = "0.0.0"
+edition = "2021"
+description = "Thread pool. Reserved"
+author = "kinire98"
+
+
+[dependencies]
