@@ -13,6 +13,6 @@ fn worker_blocked() {
     worker.execute(|| {
         thread::sleep(Duration::from_secs(1));
     });
-    thread::sleep(Duration::from_millis(15));
+    thread::sleep(Duration::from_millis(100));
     assert!(!worker.is_free());
 }
